@@ -1,0 +1,6 @@
+[Unit]
+Description=Import photos from USB device %I
+
+[Service]
+Type=oneshot
+ExecStart=/home/pi/scripts/photo_import.sh %I
